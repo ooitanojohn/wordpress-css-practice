@@ -6,20 +6,28 @@ docker-compose up
 ```
 
 - コンテナ停止
-```
-Ctr + C
-```
+
+Ctr+C
+
 または
 ```
 docker-compose stop
 ```
 
-## Theme bones
+## Sass
 
-ダウンロード先
-- https://github.com/squibbleFish/theme-bones
+パッケージのインストール
 
-使い方
-- http://websae.net/wordpress-bones-20141203/
+実行はgit cloneした後の初回のみで良い。
 
+```
+npm install
+```
 
+scssコンパイル開始
+
+作業開始時に毎回実行する。作業終了時に Ctr+C で停止する
+
+```
+npm run dev
+```

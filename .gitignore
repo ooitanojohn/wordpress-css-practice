@@ -3,3 +3,4 @@ html/wp-content/languages
 html/wp-content/plugins
 html/wp-content/upgrade
 html/wp-includes
+node_modules

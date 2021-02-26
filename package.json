@@ -1,0 +1,28 @@
+{
+  "name": "wordpress-css-practice",
+  "version": "1.0.0",
+  "description": "以下はdocker-compose.ymlが存在する階層で行う - コンテナ起動 ``` docker-compose up ```",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "gulp dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tetsukamen/wordpress-css-practice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tetsukamen/wordpress-css-practice/issues"
+  },
+  "homepage": "https://github.com/tetsukamen/wordpress-css-practice#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.0",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5"
+  }
+}
