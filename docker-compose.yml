@@ -19,7 +19,7 @@ services:
     ports:
       - "8000:80"
     volumes:
-      - ./themes:/var/www/html/wp-content/themes
+      - ./html:/var/www/html
     restart: always
     environment:
        WORDPRESS_DB_HOST: "db:3306"
