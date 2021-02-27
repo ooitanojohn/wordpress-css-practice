@@ -1,3 +1,5 @@
+# Docker,npmを利用した開発
+
 ## Docker
 以下はdocker-compose.ymlが存在する階層で行う
 - コンテナ起動
@@ -75,3 +77,13 @@ docker-compose up
 ```
 
 で初めの状態になります。エラーが直せなくなったら、あまり頭を悩ませずにリセットしちゃいましょう。
+
+# レンタルサーバーを利用した開発
+
+/html/wp-content/themes/theme-bones-master/
+
+をレンタルサーバーの
+
+wp-content/themes/
+
+にアップロードします。
