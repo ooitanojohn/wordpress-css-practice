@@ -1,0 +1,137 @@
+/********************************************************/
+/*                    画像周り                           */
+/********************************************************/
+.none {
+  display: none;
+}
+.hidden {
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.bg {
+  background-image: url(../images/young-woman-in-mauve.jpg);
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: cover; /*拡大縮小表示*/
+}
+/********************************************************/
+/*                    ボタン                           */
+/********************************************************/
+.button {
+  width: 140px;
+  height: 45px;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: #fff;
+  border: solid 1px#2EE59D;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  margin-bottom: 10px;
+}
+.button:hover {
+  /* background-color: #2EE59D; */
+  background-color: #2ee59d;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
+/********************************************************/
+/*                    header                            */
+/********************************************************/
+header {
+  background: #fff;
+  nav {
+  }
+}
+/********************************************************/
+/*                    main                              */
+/********************************************************/
+content {
+  ul {
+    display: flex;
+    li {
+      img {
+      }
+    }
+  }
+
+  #inner-content {
+    main {
+      #top {
+        .bg {
+          width: 100%;
+          height: 600px;
+          transform: rotate(20deg);
+          .bg {
+            z-index: 1;
+            h1 {
+              font-size: 1em;
+              span {
+                font-family: "Courier New", Courier, monospace;
+                font-size: 3em;
+              }
+            }
+          }
+        }
+      }
+
+      #mission {
+        section:nth-of-type(1) {
+          background-color: slategrey;
+          padding-top: 400px;
+          h3 {
+            font-size: 2em;
+            h3:before {
+              position: relative;
+              content: "ミッション";
+            }
+          }
+        }
+        section:nth-of-type(2) {
+          background-color: slateblue;
+          div {
+            height: 400px;
+          }
+          h3 {
+            font-size: 2em;
+            h3:before {
+              position: relative;
+              content: "ミッション";
+            }
+          }
+        }
+        section:nth-of-type(3) {
+          background-color: skyblue;
+        }
+      }
+
+      #product {
+        padding: 30px;
+        section {
+          background-color: slategrey;
+          padding-top: 400px;
+          margin-bottom: 30px;
+          h3 {
+            font-size: 2em;
+            color: paleturquoise;
+          }
+          p {
+          }
+          button {
+          }
+        }
+      }
+    }
+  }
+}
+/********************************************************/
+/*                    footer                            */
+/********************************************************/

@@ -1,0 +1,65 @@
+@charset "UTF-8";
+/* line 1, ../../library/scss/main.min.scss */
+.none {
+  display: none;
+}
+
+/* line 4, ../../library/scss/main.min.scss */
+.hidden {
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+/* line 9, ../../library/scss/main.min.scss */
+.img-bg {
+  background-image: url(../images/young-woman-in-mauve.jpg);
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: cover;
+  /*拡大縮小表示*/
+}
+
+/********************************************************/
+/*                    header                            */
+/********************************************************/
+/* line 18, ../../library/scss/main.min.scss */
+header {
+  background: #fff;
+}
+
+/********************************************************/
+/*                    main                              */
+/********************************************************/
+/* line 27, ../../library/scss/main.min.scss */
+content ul {
+  display: flex;
+}
+/* line 38, ../../library/scss/main.min.scss */
+content #inner-content main article .bg {
+  background-image: url(../images/young-woman-in-mauve.jpg);
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: cover;
+  /*拡大縮小表示*/
+  width: 100%;
+  height: 600px;
+  transform: rotate(20deg);
+}
+/* line 46, ../../library/scss/main.min.scss */
+content #inner-content main article .bg div {
+  background: url(../images/young-woman-in-mauve.jpg) left top cover no-repeat;
+}
+/* line 50, ../../library/scss/main.min.scss */
+content #inner-content main article .bg div h1 {
+  font-size: 1em;
+}
+/* line 52, ../../library/scss/main.min.scss */
+content #inner-content main article .bg div h1 span {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 3em;
+}
+
+/********************************************************/
+/*                    footer                            */
+/********************************************************/

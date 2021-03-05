@@ -1,1 +1,145 @@
-@charset "UTF-8";*{color:#000}
+@charset "UTF-8";
+/********************************************************/
+/*                    画像周り                           */
+/********************************************************/
+/* line 4, ../scss/main.min.scss */
+.none {
+  display: none;
+}
+
+/* line 7, ../scss/main.min.scss */
+.hidden {
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+/* line 12, ../scss/main.min.scss */
+.bg {
+  background-image: url(../images/young-woman-in-mauve.jpg);
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: cover;
+  /*拡大縮小表示*/
+}
+
+/********************************************************/
+/*                    ボタン                           */
+/********************************************************/
+/* line 21, ../scss/main.min.scss */
+.button {
+  width: 140px;
+  height: 45px;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: #fff;
+  border: solid 1px #2EE59D;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  margin-bottom: 10px;
+}
+
+/* line 39, ../scss/main.min.scss */
+.button:hover {
+  /* background-color: #2EE59D; */
+  background-color: #2ee59d;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+/********************************************************/
+/*                    header                            */
+/********************************************************/
+/* line 49, ../scss/main.min.scss */
+header {
+  background: #fff;
+}
+
+/********************************************************/
+/*                    main                              */
+/********************************************************/
+/* line 58, ../scss/main.min.scss */
+content ul {
+  display: flex;
+}
+/* line 69, ../scss/main.min.scss */
+content #inner-content main #top .bg {
+  width: 100%;
+  height: 600px;
+  transform: rotate(20deg);
+}
+/* line 73, ../scss/main.min.scss */
+content #inner-content main #top .bg .bg {
+  z-index: 1;
+}
+/* line 75, ../scss/main.min.scss */
+content #inner-content main #top .bg .bg h1 {
+  font-size: 1em;
+}
+/* line 77, ../scss/main.min.scss */
+content #inner-content main #top .bg .bg h1 span {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 3em;
+}
+/* line 87, ../scss/main.min.scss */
+content #inner-content main #mission section:nth-of-type(1) {
+  background-color: slategrey;
+  padding-top: 400px;
+}
+/* line 90, ../scss/main.min.scss */
+content #inner-content main #mission section:nth-of-type(1) h3 {
+  font-size: 2em;
+}
+/* line 92, ../scss/main.min.scss */
+content #inner-content main #mission section:nth-of-type(1) h3 h3:before {
+  position: relative;
+  content: "ミッション";
+}
+/* line 98, ../scss/main.min.scss */
+content #inner-content main #mission section:nth-of-type(2) {
+  background-color: slateblue;
+}
+/* line 100, ../scss/main.min.scss */
+content #inner-content main #mission section:nth-of-type(2) div {
+  height: 400px;
+}
+/* line 103, ../scss/main.min.scss */
+content #inner-content main #mission section:nth-of-type(2) h3 {
+  font-size: 2em;
+}
+/* line 105, ../scss/main.min.scss */
+content #inner-content main #mission section:nth-of-type(2) h3 h3:before {
+  position: relative;
+  content: "ミッション";
+}
+/* line 111, ../scss/main.min.scss */
+content #inner-content main #mission section:nth-of-type(3) {
+  background-color: skyblue;
+}
+/* line 116, ../scss/main.min.scss */
+content #inner-content main #product {
+  padding: 30px;
+}
+/* line 118, ../scss/main.min.scss */
+content #inner-content main #product section {
+  background-color: slategrey;
+  padding-top: 400px;
+  margin-bottom: 30px;
+}
+/* line 122, ../scss/main.min.scss */
+content #inner-content main #product section h3 {
+  font-size: 2em;
+  color: paleturquoise;
+}
+
+/********************************************************/
+/*                    footer                            */
+/********************************************************/
